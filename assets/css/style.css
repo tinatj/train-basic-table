@@ -1,0 +1,119 @@
+/* body {
+    background: turquoise;
+
+} */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Shrikhand'); */
+
+tr:nth-child(even) {
+    background-color: #d9d6e7;
+}
+
+#main-table th {
+  margin: 100%;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-align: center;
+        background-color: rgb(127, 38, 112);
+       
+
+}
+
+#main-table th, #main-table td {
+        border: 1px  turquoise;
+        padding: 8px;
+}
+body,html {
+  display: block;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    color: #fff;
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+  }
+.card-body {
+    background: springgreen
+}
+.container {
+    background: rgba(22,22,22,0.8);
+    margin-top: 7vh;
+    border-radius: 25px;
+    border: 15px double #ff5252;
+    padding: 0 40px 20px 40px;
+  }
+  
+  .jumbotron {
+    background: turquoise;
+    text-shadow: 2px 2px 0px #ff5252;
+  }
+  
+  .inputs {
+    width: 100%;
+}
+
+#first-train-time {
+    align-self: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+color: #ffff;
+font-weight: 700;
+font-size: 30px;
+border-bottom: 3px solid #d9d6e7;
+}
+  .btn {
+    background: #ff5252;
+    color: #fff;
+    border: 2px #000 solid;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background: #000;
+    border: 2px #ff5252 solid;
+  }
+  /* Fixes an MDL bug where the header does not scroll on small devices */
+.mdl-layout__container .mdl-layout--fixed-header .mdl-layout__content {
+  overflow-y: visible;
+  overflow-x: visible;
+  overflow: visible;
+}
+  
+  /* .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+  }
+  
+  .table>thead {
+    color: #ff5252;
+  }
+  
+  .current-time {
+    color: #ff5252;
+    text-shadow: none;
+  
+  }
+  
+  .panel {
+    background: none;
+    border: 1px dotted #fff;
+  }
+  
+  .panel-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color:#ff5252;
+    border-bottom: 1px dotted #fff;
+    margin: 10px 0;
+    padding: 0 0 10px 0;
+  }
+  
+  .help-block {
+    color: #fff;
+  } */
